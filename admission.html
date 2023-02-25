@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Calibri, Helvetica, sans-serif;
+      background-color: rgba(25, 191, 146, 0.84);
+    }
+
+    .container {
+      padding: 50px;
+    }
+
+    input[type=text],
+    input[type=password],
+    textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+    }
+
+    div {
+      padding: 10px 0;
+    }
+
+    hr {
+      border: 1px solid; font-family : Calibri, Helvetica, sans-serif;
+      background-color: pink;
+    }
+
+    .container {
+      padding: 50px;
+      background-color: lightblue;
+    }
+
+    input[type=text],
+    input[type=password],
+    textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+
+    input[type=text]:focus,
+    input[type=password]:focus {
+      outline: none;
+    }
+
+    div {
+      padding: 10px 0;
+    }
+
+    hr {
+      border: 1px solid rgb(223, 6, 243);
+      margin-bottom: 25px;
+    }
+
+    .registerbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+
+    .registerbtn:hover {
+      opacity: 1;
+    }
+
+    
+    .registerbtn {
+
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+
+    .registerbtn:hover {
+      opacity: 1;
+    }
+
+    .deo {
+      color: rgb(154, 14, 167);
+      font-size: larger;
+
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="deo">
+    <marquee behavior="scroll" direction="right" scrollamount="20">
+      MAKED BY SANDEEP SINGH <br>
+    </marquee>
+  </nav>
+  <form>
+    <div class="container">
+      <br>
+      <h1> Government, Polytechinc GAYA </h1>
+      <hr>
+      <label> Firstname
+        <input type="text" name="name" placeholder="Firstname" />
+      </label>
+      <label> Middlename:
+        <input type="text" name="name" placeholder="Middlename" />
+      </label>
+      <label> Lastname:
+        <input type="text" name="name" placeholder="Lastname" />
+      </label>
+      <div>
+        <label>
+          Course :
+        </label>
+
+        <select>
+          <option value="Course">Course</option>
+          <option value="computer science and engg">computer science and engg</option>
+          <option value="civil">civil</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Mechnical">Mechnical</option>
+          <option value="Electrical">Electrical</option>
+        </select>
+      </div>
+      <div>
+        <label>
+          Gender :
+        </label><br>
+        <label for="male"><input type="radio" name="gender" id="male" value="male">male
+        </label>
+        <label for="female"><input type="radio" name="gender" id="female" value="female">female
+        </label>
+        <label for="other"><input type="radio" name="gender" id="other" value="other">other
+        </label>
+
+      </div>
+      <label>
+        Phone :
+      </label>
+      <input type="text" name="country code" placeholder="Country Code" value="+91" size="2" />
+      <input type="text" name="phone" placeholder="phone no." size="10" / required>
+      Current Address :
+      <textarea cols="80" rows="5" placeholder="Current Address" value="address" required class="add">
+</textarea>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Re-type Password</b></label>
+      <input type="password" placeholder="Retype Password" name="psw-repeat" required>
+      <button type="submit" class="registerbtn">Register</button>
+  </form>
+</body>
+
+</html
